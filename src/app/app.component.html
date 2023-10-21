@@ -1,0 +1,12 @@
+<h1>Book List App</h1>
+<nav>
+  <ul>
+    <li><a routerLink="/view">View book list</a></li>
+    <li><a routerLink="/edit">Edit book list</a></li>
+  </ul>
+</nav>
+
+<button (click)="goBack()">Back</button>
+<button (click)="goForward()">Forward</button>
+
+<router-outlet></router-outlet>
